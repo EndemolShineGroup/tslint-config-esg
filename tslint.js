@@ -45,15 +45,7 @@ module.exports = {
     'switch-default'                  : true,
     'triple-equals'                   : true,
     'ter-indent'                      : [true, 2, {
-      'SwitchCase': 2,
-      'VariableDeclarator': 2,
-      'outerIIFEBody': 2,
-      'FunctionDeclaration': {
-        'body': 2,
-      },
-      'FunctionExpression': {
-        'body': 2,
-      },
+      'SwitchCase': 1,
     }],
     'forin'                           : true,
     'no-arg'                          : true,

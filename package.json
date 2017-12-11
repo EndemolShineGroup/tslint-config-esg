@@ -1,5 +1,5 @@
 {
-  "name": "@EndemolShineGroup/tslint-config-esg",
+  "name": "tslint-config-esg",
   "version": "1.0.0",
   "description": "A TSLint config for ESG Tech Projects",
   "main": "tslint.js",

@@ -80,7 +80,7 @@ module.exports = {
     'object-literal-key-quotes'       : [ true, 'as-needed' ],
     'object-literal-shorthand'        : true,
     'object-literal-sort-keys'        : [true, 'match-declaration-order'],
-    'one-line'                        : false,
+    'one-line'                        : [ true, 'check-catch', 'check-finally', 'check-else' ],
     'ordered-imports'                 : true,
     'prefer-method-signature'         : true,
     'no-unnecessary-qualifier'        : true,

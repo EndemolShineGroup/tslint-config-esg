@@ -1,6 +1,6 @@
 {
-  "name": "@EndemolShineGroup/tslint-config-esg",
-  "version": "1.0.0",
+  "name": "tslint-config-esg",
+  "version": "1.0.1",
   "description": "A TSLint config for ESG Tech Projects",
   "main": "tslint.js",
   "author": {

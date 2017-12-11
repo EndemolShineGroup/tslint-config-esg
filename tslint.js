@@ -24,7 +24,7 @@ module.exports = {
     'no-conditional-assignment'       : true,
     'no-console'                      : true,
     'no-debugger'                     : true,
-    'ban'                             : [true, ['alert']]
+    'ban'                             : [true, ['alert']],
     'no-constant-condition'           : true,
     'no-duplicate-case'               : true,
     'no-empty'                        : true,

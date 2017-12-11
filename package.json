@@ -1,0 +1,32 @@
+{
+  "name": "@EndemolShineGroup/tslint-config-esg",
+  "version": "1.0.0",
+  "description": "A TSLint config for ESG Tech Projects",
+  "main": "tslint.js",
+  "author": {
+    "name": "Endemol Shine Technology",
+    "url": "https://github.com/EndemolShineGroup"
+  },
+  "contributors": [
+    "Hassan Khan <hassan.khan@endemolshine.com>",
+    "Caina Leao <caina.leao@endemolshine.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EndemolShineGroup/tslint-config-esg.git"
+  },
+  "bugs": "https://github.com/EndemolShineGroup/tslint-config-esg/issues",
+  "scripts": {
+    "version:patch": "npm version patch -m 'Bumped version in `package.json`' --no-git-tag-version",
+    "release:patch": "npm run lint && npm run version:patch",
+    "version:minor": "npm version minor -m 'Bumped version in `package.json`' --no-git-tag-version",
+    "release:minor": "npm run lint && npm run version:minor"
+  },
+  "devDependencies": {
+    "tslint": "^5.0.0",
+    "typescript": "^2.0.3"
+  },
+  "dependencies": {
+    "tslint-eslint-rules": "^4.0.0"
+  }
+}

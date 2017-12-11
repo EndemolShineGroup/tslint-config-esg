@@ -24,7 +24,7 @@ module.exports = {
     'no-conditional-assignment'       : true,
     'no-console'                      : true,
     'no-debugger'                     : true,
-    'ban'                             : [true, ['alert']]
+    'ban'                             : [true, ['alert']],
     'no-constant-condition'           : true,
     'no-duplicate-case'               : true,
     'no-empty'                        : true,
@@ -33,9 +33,10 @@ module.exports = {
     'no-extra-semi'                   : true,
     'no-inner-declarations'           : true,
     'no-invalid-regexp'               : true,
-    'ter-no-irregular-whitespace'     : true,
+    'no-irregular-whitespace'         : true,
     'ter-no-sparse-arrays'            : true,
     'use-isnan'                       : true,
+    'no-unnecessary-initializer'      : true,
 
     /**
      * Best practices
@@ -64,6 +65,7 @@ module.exports = {
     'no-duplicate-variable'           : [true, 'check-parameters'],
     'no-string-throw'                 : true,
     'radix'                           : true,
+    'new-parens'                      : true,
 
     /**
      * Style
@@ -83,5 +85,13 @@ module.exports = {
     'one-variable-per-declaration'    : true,
     'semi'                            : [true, 'always'],
     'comment-format'                  : [true],
+    'object-literal-key-quotes'       : [ true, 'as-needed' ],
+    'object-literal-shorthand'        : true,
+    'object-literal-sort-keys'        : [true, 'match-declaration-order'],
+    'one-line'                        : [ true, 'check-catch', 'check-finally', 'check-else' ],
+    'ordered-imports'                 : true,
+    'prefer-method-signature'         : true,
+    'no-unnecessary-qualifier'        : true,
+    'number-literal-format'           : true,
   },
 };

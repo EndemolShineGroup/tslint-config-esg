@@ -83,7 +83,7 @@ module.exports = {
     'no-consecutive-blank-lines'      : [true, 2],
     'no-trailing-whitespace'          : true,
     'one-variable-per-declaration'    : true,
-    'semi'                            : [true, 'always'],
+    'semicolon'                       : [true, 'always'],
     'comment-format'                  : [true],
     'object-literal-key-quotes'       : [ true, 'as-needed' ],
     'object-literal-shorthand'        : true,
